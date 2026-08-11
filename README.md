@@ -25,7 +25,7 @@ Ketertarikan saya pada Data Science didorong oleh keinginan untuk menguasai komp
 
 ---
 
-## 3. Struktur Pembelajaran (Pertemuan 1–7)
+## 3. Struktur Pembelajaran (Pertemuan 1–13)
 Berikut adalah daftar topik materi per pertemuan beserta tautan langsung ke berkas *notebook* masing-masing:
 
 | Pertemuan | Topik / Pembahasan | Tautan Notebook |
