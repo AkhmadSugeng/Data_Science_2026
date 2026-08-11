@@ -34,9 +34,15 @@ Berikut adalah daftar topik materi per pertemuan beserta tautan langsung ke berk
 | **02** | Struktur Data Python, NumPy & Pandas | [Buka Notebook](./Pertemuan_02_Akhmad_Sugeng_Saputro_240401010142.ipynb) |
 | **03** | Data Cleaning: Missing, Outlier & Ekstraksi | [Buka Notebook](./Pertemuan_03_Akhmad_Sugeng_Saputro_240401010142.ipynb) |
 | **04** | Statistika Dasar & Analisis Data | [Buka Notebook](./Pertemuan_04_Akhmad_Sugeng_Saputro_240401010142.ipynb) |
-| **05** | Visualisasi Data | [Buka Notebook](./Pertemuan_05_Akhmad_Sugeng_Saputro_240401010142.ipynb) |
+| **05** | Dashboard Visualisasi Statis Dataset Titanic | [Buka Notebook](./Pertemuan_05_Akhmad_Sugeng_Saputro_240401010142.ipynb) |
 | **06** | Persiapan Data | [Buka Notebook](./Pertemuan_06_Akhmad_Sugeng_Saputro_240401010142.ipynb) |
 | **07** | Pengantar Machine Learning: Regresi Linier | [Buka Notebook](./Pertemuan_07_Akhmad_Sugeng_Saputro_240401010142.ipynb) |
+| **09** | Algoritma Klasifikasi (1) | [Buka Notebook](./Pertemuan_09_Akhmad_Sugeng_Saputro_240401010142.ipynb) |
+| **10** | Algoritma Klasifikasi (2) | [Buka Notebook](./Pertemuan_10_Akhmad_Sugeng_Saputro_240401010142.ipynb) |
+| **11** | Unsupervised Learning: Clustering | [Buka Notebook](./Pertemuan_11_Akhmad_Sugeng_Saputro_240401010142.ipynb) |
+| **12** | Asosiasi Data & Sistem Rekomendasi Dasar | [Buka Notebook](./Pertemuan_12_Akhmad_Sugeng_Saputro_240401010142.ipynb) |
+| **13** | Klasifikasi Non-Linear & Analisis Sentimen | [Buka Notebook](./Pertemuan_13_Akhmad_Sugeng_Saputro_240401010142.ipynb) |
+
 
 ---
 
@@ -94,24 +100,16 @@ Anda dapat menjalankan *notebook* di repository ini dengan dua cara:
     
     Notebook akan terbuka secara otomatis di cloud environment Google Colab dan siap dijalankan langkah demi langkah (cell-by-cell).
 
-## 6. Kesimpulan Perjalanan Belajar (Pertemuan 1–7)
+## 6. Kesimpulan Perjalanan Belajar (Pertemuan 1–13)
 
-Rangkaian materi dari Pertemuan 1 hingga 7 memberikan pemahaman terstruktur mengenai alur kerja awal seorang Data Scientist, mulai dari pengenalan konsep dasar, pembersihan data, analisis statistik, hingga pemodelan prediktif. Berikut adalah ringkasan detail dari perjalanan pembelajaran paruh pertama ini:
+Rangkaian materi dari Pertemuan 1 hingga 13 memberikan pemahaman terstruktur mengenai alur kerja awal seorang Data Scientist, mulai dari pengenalan konsep dasar, pembersihan data, analisis statistik, hingga pemodelan prediktif. Berikut adalah ringkasan detail dari perjalanan pembelajaran:
 
-### A. Fondasi, Manipulasi, dan Pembersihan Data (Pertemuan 1–3)
-* **Pengenalan Data Science (Pertemuan 1):** Memahami peran, ruang lingkup, dan urgensi Data Science dalam mentransformasikan data mentah menjadi informasi strategis, serta menyiapkan *environment* kerja.
-* **Eksplorasi Struktur Data & Library Utama (Pertemuan 2):** Menguasai struktur data bawaan Python serta dasar penggunaan pustaka NumPy dan Pandas sebagai alat utama dalam manipulasi data tabular dan komputasi numerik.
-* **Data Cleaning (Pertemuan 3):** Mempelajari aspek krusial dalam menyiapkan data berkualitas melalui penanganan data yang hilang (*missing values*), deteksi nilai ekstrem (*outliers*), serta teknik ekstraksi data untuk kebutuhan analisis lebih lanjut.
+Seluruh rangkaian Aktivitas Hands-on Modul 1–13 memberikan pemahaman yang menyeluruh mengenai tahapan pengolahan data, analisis data, hingga proses pengembangan model pembelajaran mesin (*machine learning*). Setiap modul memiliki keterkaitan satu sama lain sehingga membentuk alur kerja *data science* secara lengkap, yang dimulai dari proses memperoleh data, membersihkan data, melakukan eksplorasi, mengembangkan model, sampai dengan mengevaluasi hasil yang diperoleh.
 
-### B. Analisis Visual dan Kesiapan Pemodelan (Pertemuan 4–6)
-* **Statistika Dasar & Analisis Data (Pertemuan 4):** Menerapkan konsep statistika deskriptif untuk membedah karakteristik dataset, memahami distribusi data, dan menarik kesimpulan awal secara objektif.
-* **Visualisasi Data (Pertemuan 5):** Memanfaatkan visualisasi grafis untuk menyampaikan informasi secara intuitif, mengidentifikasi tren, serta melihat korelasi antar-variabel secara eksploratif.
-* **Persiapan Data (Pertemuan 6):** Melakukan langkah final prakondisi data (*data preparation*) agar siap dikonsumsi oleh algoritma *Machine Learning*, memastikan format dan skala data berada pada kondisi optimal.
+Pada tahap awal, pemahaman terhadap dataset serta pemanfaatan berbagai library Python seperti Pandas, NumPy, Matplotlib, dan Scikit-learn menjadi dasar yang penting dalam proses pengolahan data. Tahap berikutnya adalah *data preprocessing* yang mencakup penanganan *missing value*, perubahan tipe data, proses *encoding* pada variabel kategorikal, normalisasi, serta pemilihan atribut. Tahapan tersebut bertujuan agar data berada dalam kondisi yang lebih baik dan siap digunakan untuk proses analisis.
 
-### C. Pengantar Pemodelan Prediktif (Pertemuan 7)
-* **Pengantar Machine Learning - Regresi Linier (Pertemuan 7):** Memasuki ranah *Supervised Learning* dengan mempelajari implementasi Regresi Linier untuk memprediksi nilai kontinu (numerik) berdasarkan hubungan antar-variabel data yang telah dipersiapkan.
+Melalui proses *Exploratory Data Analysis* (EDA), karakteristik dataset dapat dipahami dengan lebih baik, termasuk distribusi data, hubungan antarvariabel, serta berbagai pola yang sebelumnya belum terlihat. Penggunaan visualisasi berupa histogram, boxplot, scatter plot, dan heatmap juga memberikan bantuan yang signifikan dalam mengidentifikasi tren maupun kemungkinan permasalahan yang terdapat dalam data.
 
----
+Pengembangan sistem rekomendasi dilakukan melalui dua pendekatan, yaitu *Association Rules* dan *Content-Based Filtering*. Kedua metode tersebut menunjukkan bahwa proses pemberian rekomendasi dapat dilakukan berdasarkan sudut pandang yang berbeda. *Association Rules* menggunakan pola pembelian atau penggunaan beberapa item secara bersamaan, sedangkan *Content-Based Filtering* menggunakan tingkat kesamaan karakteristik antarproduk. Berdasarkan perbandingan kedua metode tersebut, dapat diketahui bahwa keduanya memiliki kemampuan yang dapat saling melengkapi, sehingga pendekatan *hybrid* dapat menjadi alternatif yang lebih baik dalam meningkatkan kualitas rekomendasi.
 
-## Kesimpulan Umum
-Rangkaian Pertemuan 1–7 ini berhasil membangun pondasi kompetensi yang kokoh sebagai seorang Data Scientist pemula. Pembelajaran telah berhasil menjembatani teori matematika-statistika, implementasi pemrograman Python, dan rekayasa fitur data (feature engineering) sehingga siap untuk melangkah ke tingkat algoritma Machine Learning yang lebih kompleks pada sesi-sesi berikutnya.
+Secara keseluruhan, seluruh aktivitas *hands-on* menunjukkan bahwa keberhasilan dalam melakukan analisis data tidak hanya bergantung pada algoritma yang digunakan, tetapi juga dipengaruhi secara signifikan oleh kualitas data, tahapan *preprocessing*, pemilihan fitur, serta kemampuan dalam menginterpretasikan hasil analisis. Setiap tahapan memiliki peranan yang sama penting dalam menghasilkan informasi yang akurat dan dapat digunakan sebagai dasar dalam proses pengambilan keputusan.
